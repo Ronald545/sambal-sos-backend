@@ -116,3 +116,6 @@
 {"message":"Error occured: Error: Only .png, .jpg and .jpeg format allowed!","level":"error","timestamp":"2021-07-09T11:28:21.357Z"}
 {"message":"Error occured: TypeError: Cannot read property 'split' of undefined","level":"error","timestamp":"2021-07-09T12:28:50.196Z"}
 {"message":"Error occured: TypeError: Cannot read property 'split' of undefined","level":"error","timestamp":"2021-07-10T03:11:49.726Z"}
+{"message":"Error occured: Error: Not found","level":"error","timestamp":"2021-07-18T03:04:55.210Z"}
+{"message":"Error occured: Error: Not found","level":"error","timestamp":"2021-07-18T04:27:59.136Z"}
+{"message":"Error occured: Error: Not found","level":"error","timestamp":"2021-07-18T04:30:15.151Z"}

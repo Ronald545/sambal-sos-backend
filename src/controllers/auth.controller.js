@@ -164,9 +164,13 @@ module.exports.login = (req, res) => {
 
       // if (match) {
       const expiry = "15m"; // JWT expiry duration
-      const token = JWT.sign({ data: user.id }, process.env.JWT_SECRET, {
-        expiresIn: expiry,
-      });
+      const token = JWT.sign(
+        { data: user.id, role: user.role },
+        process.env.JWT_SECRET,
+        {
+          expiresIn: expiry,
+        }
+      );
       res.status(200).json({
         status: true,
         message: "User successfully logged in",
@@ -223,7 +227,7 @@ module.exports.login = (req, res) => {
  *                    user:
  *                      type: object
  *                      properties:
- *                        id: 
+ *                        id:
  *                          type: string
  *                          format: uuid
  *                        email:
